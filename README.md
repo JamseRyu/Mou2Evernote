@@ -34,17 +34,19 @@ $ make
 AppleScript 메뉴는 맥에서 기본적으로 활성화 되어있지 않다.  
 먼저 AppleScript 를 실행하고 환경설정 > 일반 탭 에서 "메뉴 막대에서 스크립트 메뉴 보기" 를 체크하면 된다.
 
-![](./screenshots/applescript-preference.png) 
+![](https://github.com/rhiokim/Mou2Evernote/raw/master/screenshots/applescript-preference.png) 
 
 위의 설정을 체크하면 상단 메뉴바에 AppleScript 가 생기고 다양한 AppleScript 를 활용할 수 있다.  만약 위의 Mou2Evernote 를 실행했다면 가장 하단에 `mou2evernote.scpt` 항목이 추가되어 있는 것을 볼 수 있다.
 
-![](./screenshots/applescript-menu-bar.png) 
+![](https://github.com/rhiokim/Mou2Evernote/raw/master/screenshots/applescript-menu-bar.png) 
 
 ### Alfred 를 이용하기
 Alfred 는 맥에서 빠른 애플리케이션 런쳐로 맥에서 기본적으로 제공하는 'spotlight' 기능보다 더 많은 고급 기능을 제공하고 있다. 
 물론 AppleScript 도 바로 실행이 가능하기 때문에 Mou2Evernote Script 도 Alfred 에 추가하면 간편하게 이용할 수 있다.
 
-![](./screenshots/alfred-preference.png)
+![](https://github.com/rhiokim/Mou2Evernote/raw/master/screenshots/alfred-preference.png)
+
+Alfred 의 환경설정(Preference)에서 위의 사진에서 처럼 `/Users/사용자계정/Library/Scripts` 를 추가하면 Alfred 에서도 바로 수행할 수 있게 된다.
 
 [http://www.alfredapp.com/](http://www.alfredapp.com/)
 
