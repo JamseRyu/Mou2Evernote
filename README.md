@@ -16,7 +16,7 @@ Mac 에서 Evernote 클라이언트에서 마크다운 프리뷰를 제공하지
 [Mac](http://www.apple.com/mac/), [Evernote](http://evernote.com/intl/ko/)[Mou](http://mouapp.com)
 
 
-## Install & Enjoy
+## 설치
 
 ### Fancy Install
 ```
@@ -31,7 +31,7 @@ $ make
 ```
 
 
-### 실행 방법
+## 실행 방법
 
 ### AppleScript 활성화
 AppleScript 메뉴는 맥에서 기본적으로 활성화 되어있지 않다.  
