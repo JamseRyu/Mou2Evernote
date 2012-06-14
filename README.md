@@ -13,7 +13,7 @@ Mac 에서 Evernote 클라이언트에서 마크다운 프리뷰를 제공하지
 ### 준비물
 준비물은 맥, 에버노트, Mou 이렇게 3가지와 [마크다운](http://daringfireball.net/projects/markdown/)을 즐겨 쓰는 마음 가짐만 있으면 된다.
 
-[Mac](http://www.apple.com/mac/), [Evernote](http://evernote.com/intl/ko/)[Mou](http://mouapp.com)
+[Mac](http://www.apple.com/mac/), [Evernote](http://evernote.com/intl/ko/), [Mou](http://mouapp.com)
 
 
 ## 설치
@@ -51,5 +51,5 @@ Alfred 의 환경설정(Preference)에서 위의 사진에서 처럼 `/Users/사
 
 [http://www.alfredapp.com/](http://www.alfredapp.com/)
 
-## References
-* http://d.hatena.ne.jp/sandai/20120602/p1
+## 소스에 대하여
+이 소스는 [sandai](http://github.com/sandai) 씨가 작성한 AppleScript 를 fork 받아 일부만 한글화를 하였고 설치에 용이하도록 쉘 스크립트를 작성하였다.
