@@ -1,4 +1,4 @@
-## Evernote 에 Markdown 문서를 CSS 를 적용해서 게시하는 방법
+## Evernote 에 Markdown 문서를 작성하는 방법
 
 Mac 에서 Evernote 클라이언트에서 마크다운 프리뷰를 제공하지 않는다.
 하지만 이쁜 문서로 남기고 싶은 욕심은 누구에게나 있다.
@@ -11,18 +11,40 @@ Mac 에서 Evernote 클라이언트에서 마크다운 프리뷰를 제공하지
 적절한 해결책을 찾았다.
 
 ### 준비물
-* Mou 를 사용하여 마크다운 작성을 즐겨야 한다.
-* 에버노트도 즐겨 써야 한다.
-* mouever.appescript 
+준비물은 맥, 에버노트, Mou 이렇게 3가지와 [마크다운](http://daringfireball.net/projects/markdown/)을 즐겨 쓰는 마음 가짐만 있으면 된다.
 
-[Mou 다운로드](http://mouapp.com)
+[Mac](http://www.apple.com/mac/), [Evernote](http://evernote.com/intl/ko/)[Mou](http://mouapp.com)
+
+
+## Install & Enjoy
+
+### Fancy Install
+```
+$ curl https://raw.github.com/rhiokim/Mou2Evernote/master/bin/install.sh | sh
+```
+
+### Source Install
+```
+$ git clone git@github.com:rhiokim/Mou2Evernote.git
+$ cd Mou2Evernote
+$ make
+```
 
 ### AppleScript 활성화
-AppleScript 는 맥에서 기본적으로 활성화 되어있지 않습니다.  먼저 AppleScript 를 실행하고 환경설정 > 일반 탭 에서 "메뉴 막대에서 스크립트 메뉴 보기" 를 체크하면 된다.
+AppleScript 메뉴는 맥에서 기본적으로 활성화 되어있지 않다.  
+먼저 AppleScript 를 실행하고 환경설정 > 일반 탭 에서 "메뉴 막대에서 스크립트 메뉴 보기" 를 체크하면 된다.
+
+![](./screenshots/applescript-preference.png) 
+
+위의 설정을 체크하면 상단 메뉴바에 AppleScript 가 생기고 다양한 AppleScript 를 활용할 수 있다.  만약 위의 Mou2Evernote 를 실행했다면 가장 하단에 `mou2evernote.scpt` 항목이 추가되어 있는 것을 볼 수 있다.
+
+![](./screenshots/applescript-menu-bar.png) 
 
 ### Alfred 를 이용하기
 Alfred 는 맥에서 빠른 애플리케이션 런쳐로 맥에서 기본적으로 제공하는 'spotlight' 기능보다 더 많은 고급 기능을 제공하고 있다. 
 물론 AppleScript 도 바로 실행이 가능하기 때문에 Mou2Evernote Script 도 Alfred 에 추가하면 간편하게 이용할 수 있다.
+
+![](./screenshots/alfred-preference.png)
 
 [http://www.alfredapp.com/](http://www.alfredapp.com/)
 
