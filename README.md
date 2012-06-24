@@ -8,6 +8,8 @@ Mac 에서 Evernote 클라이언트에서 마크다운 프리뷰를 제공하지
 
 적절한 해결책을 찾았다.
 
+<iframe src="http://player.vimeo.com/video/44440029" width="700" height="393" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/44440029">Mou2Evernote Tutorial</a> from <a href="http://vimeo.com/rhio">rhiokim</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
 ### 준비물
 준비물은 맥, 에버노트, Mou 이렇게 3가지와 [마크다운](http://daringfireball.net/projects/markdown/)을 즐겨 쓰는 마음 가짐만 있으면 된다.
 
